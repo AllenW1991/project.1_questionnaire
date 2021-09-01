@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        登山健行習慣調查
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/questionnaire.css">
+    <link rel="stylesheet" href="./css/navStyle.css">
+    <link rel="stylesheet" href="./css/position.css">
+    <link rel="shortcut icon" href="./1618923704.ico" type="image/x-icon">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <div class="myleft"></div>
+        <div class="preface">
+            <ul class="slides">
+                <input type="radio" id="control-1" name="control" checked>
+                <input type="radio" id="control-2" name="control">
+                <input type="radio" id="control-3" name="control">
+
+                <div class="navigator slide-1">
+                    <label for="control-3">
+                        <i class="fas fa-chevron-left"></i>
+                    </label>
+                    <label for="control-2">
+                        <i class="fas fa-chevron-right"></i>
+                    </label>
+                </div>
+
+                <div class="navigator slide-2">
+                    <label for="control-1">
+                        <i class="fas fa-chevron-left"></i>
+                    </label>
+                    <label for="control-3">
+                        <i class="fas fa-chevron-right"></i>
+                    </label>
+                </div>
+
+                <div class="navigator slide-3">
+                    <label for="control-2">
+                        <i class="fas fa-chevron-left"></i>
+                    </label>
+                    <label for="control-1">
+                        <i class="fas fa-chevron-right"></i>
+                    </label>
+                </div>
+                <!--  /Left/Right Button  -->
+
+                <li class="slide"></li>
+                <li class="slide"></li>
+                <li class="slide"></li>
+
+                <div class="controls-visible">
+                    <label for="control-1"></label>
+                    <label for="control-2"></label>
+                    <label for="control-3"></label>
+                </div>
+            </ul>
+        </div>
+        <div class="preface_text">
+            <nav class="navBar">
+                <form action="">
+                    <ul>
+                        <li><a
+                                href="https://www.amouter.com/pages/%E5%A4%A7%E5%B0%8F%E9%9C%B8%E5%B0%96%E5%B1%B1">大小霸尖山</a>
+                        </li>
+                        <li><a
+                                href="https://www.amouter.com/pages/%E9%9B%AA%E5%B1%B1%E4%B8%BB%E6%9D%B1%E5%B3%B0">雪山主東峰</a>
+                        </li>
+                        <li><a href="https://www.amouter.com/pages/%E6%96%B0%E7%9A%84%E5%88%86%E9%A0%81-7">戒茂斯上嘉明湖</a>
+                        </li>
+                        <li><a
+                                href="https://www.amouter.com/pages/%E9%87%91%E9%BB%83%E8%89%B2%E7%9A%84%E5%B8%9D%E7%8E%8B%E4%B9%8B%E5%B1%B1---%E5%8D%97%E6%B9%96%E7%BE%A4%E5%B3%B0">南湖群峰</a>
+                        </li>
+                        <li><a href="https://www.amouter.com/pages/%E7%95%A2%E7%BE%8A%E7%B8%B1%E8%B5%B0">畢羊縱走</a></li>
+                        <li><a href="https://www.amouter.com/pages/%E4%B8%83%E5%BD%A9%E6%B9%96">神秘七彩湖、六順山</a></li>
+                        <li><a href="https://www.amouter.com/pages/death-edge">死亡稜線:甘薯峰八日縱走</a></li>
+                    </ul>
+            </nav>
+
+            <h1>登山健行習慣調查</h1>
+            <hr>
+            <h3>
+                <p>登山是一種具有挑戰性的戶外活動，近年來疫情影響，走入山內的人越來越多。</p>
+                <p> 你身邊也有愛爬山的朋友嗎?這次展開了一場登山心聲大調查，一起來看看大家一年要爬幾座山!</p>
+            </h3>
+            </p>
+        </div>
+        <div class="myright">
+            <div class=myright_pic1 id="pct_background">
+                <div class="myright_pic">
+                    <hr>
+                    <div id="q1">
+                        <section>
+                            <h4>Q：曾經因為顧慮哪些事情而不敢踏出第一步？</h4>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>跟團有壓力，怕拖累大家</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>擔心山屋/帳篷睡眠品質</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>擔心引發高山症</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>擔心體能不足</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>行程天數太長</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>找不到同行山友</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>登山裝備不知道如何準備</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>行程+裝備花費太高</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>登山路線難易度無法辨認</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>其他</span>
+                                </label></p>
+
+                        </section>
+                    </div>
+                    <hr>
+                    <div id="q2">
+                        <section>
+                            <h4>Q：平常沒有登山的習慣，可以登山嗎？</h4>
+
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>有登山習慣，患有低山症</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>有登山習慣，偶爾會走走步道</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>沒有登山習慣，也沒有興趣</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>沒有登山習慣，但心中總有個聲音想到山上看看</span>
+                                </label></p>
+                        </section>
+                    </div>
+                    <hr>
+                    <div id="q3">
+                        <section>
+                            <h4>Q：登山健行的原因為何？</h4>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>朋友邀約</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>打卡拍照</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>減肥健身</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>自我挑戰</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>充實生活</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>遠離都市塵囂</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>喜歡大自然</span>
+                                </label></p>
+
+                        </section>
+                    </div>
+                    <hr>
+                    <div id="q4">
+                        <section>
+                            <h4>Q：登山健行多久了？</h4>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>一年以下</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>一年-三年</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>三年-五年</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>五年以上</span>
+                                </label></p>
+                        </section>
+                    </div>
+                    <hr>
+                    <div id="q5">
+                        <section>
+                            <h4>Q：最近一年內，最常爬哪一種山呢？</h4>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>郊山</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>中級山</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>百岳</span>
+                                </label></p>
+
+                        </section>
+                    </div>
+                    <hr>
+                    <div id="q6">
+                        <section>
+                            <h4>Q：最近一年內，平均每月登山健行幾條路線？</h4>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>不到一條</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>一條</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>兩條</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>三條以上</span>
+                                </label></p>
+                        </section>
+                    </div>
+                    <hr>
+                    <div id="q7">
+                        <section>
+                            <h4>Q：最近一年內，攀登過的百岳數量？</h4>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>不到一座</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>一-三座</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>四-六座</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>七-九座</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>十座以上</span>
+                                </label></p>
+                        </section>
+                    </div>
+                    <hr>
+                    <div id="q8">
+                        <section>
+                            <h4>Q：最近一年內，攀登過的小百岳數量？</h4>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>不到一座</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>一-五座</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>六-十座</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>十一-十五座</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>十五-二十座</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>二十座以上</span>
+                                </label></p>
+                        </section>
+                    </div>
+                    <hr>
+                    <div id="q9">
+                        <section>
+                            <h4>Q：最近一年內，主要是自己去爬山、跟著朋友去爬山？還是跟商業團呢？</h4>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>參加商業團</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>跟健行協會</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>單人爬山</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>自組團</span>
+                                </label></p>
+                        </section>
+                    </div>
+                    <hr>
+                    <div id="q10">
+                        <section>
+                            <h4>Q：過去一年內，主要爬山的天數為何？</h4>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>一天</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>兩天</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>三天</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>四天以上</span>
+                                </label></p>
+                        </section>
+                    </div>
+                    <hr>
+                    <div id="q11">
+                        <section>
+                            <h4>Q：決定要去爬哪座山/哪條步道原因為何？</h4>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>網路介紹</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>媒體報導</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>研究地圖</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>跟著朋友走</span>
+                                </label></p>
+                        </section>
+                    </div>
+                    <hr>
+                    <div id="q12">
+                        <section>
+                            <h4>Q：為了登山健行，平常有在做什麼體能訓練呢？</h4>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>游泳</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>重量訓練</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>騎自行車</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>快走</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>跑步</span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" value="confirm" />
+                                    <span>無</span>
+                                </label></p>
+                            <hr>
+                            <a href="https://hiking.biji.co/index.php?q=special&act=list&id=109">
+                                <div id="go"></div>
+
+                            </a>
+                            <h4 id="last_text">感謝填寫，準備好就在2021年展開你的登山旅程吧，我們山上見!</h4>
+                            <hr>
+                    </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <!-- <button id="button"><span>填寫完畢，送出表單</span></button> -->
+            <button class="button" id="button"><span>填寫完畢，送出問卷</span></button>
+            <script>
+                document.getElementById("button").addEventListener("click", function () {
+                    swal("Good job!", "已送出問卷", "success");
+                });
+            </script>
+        </footer>
+        </form>
+</body>
+
+</html>
